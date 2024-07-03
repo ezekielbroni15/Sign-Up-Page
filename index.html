@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="split-left">
+        <div class="container-left">
+          <div class="logo">
+            <img src="https://i.ibb.co/51d2Rqc/KodeCamp.png" alt="KodeCamp" />
+          </div>
+
+          <div class="header">
+            <h1>Sign Up</h1>
+          </div>
+
+          <form action="">
+            <div class="row-container">
+              <div class="row">
+                <label for="fname"> First Name </label>
+                <input type="text" name="fname" required />
+              </div>
+
+              <div class="row">
+                <label for="lname"> Last Name </label>
+                <input type="text" name="lname" required />
+              </div>
+            </div>
+
+            <div class="row-container">
+              <div class="row">
+                <label for="email"> Email </label>
+                <input type="text" name="email" id="email" required />
+              </div>
+
+              <div class="gender-item">
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                  <input type="radio" name="gender" id="male" />
+                  <label for="male" class="male">Male</label>
+                  <input type="radio" name="gender" id="female" />
+                  <label for="female" class="female">Female</label>
+                  <input type="radio" name="gender" id="option" />
+                  <label for="option" class="option">Option</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row-container">
+              <div class="row">
+                <label for="password"> Password </label>
+                <input type="password" name="password" required />
+              </div>
+
+              <div class="row">
+                <label for="cpassword"> Confirm Password </label>
+                <input type="password" name="cpassword" required />
+              </div>
+            </div>
+
+            <div class="row-container">
+              <div class="row">
+                <label for="educational-level"> Educational Level </label>
+                <select
+                  name="educational-level"
+                  id="educational-level"
+                ></select>
+              </div>
+
+              <div class="row">
+                <label for="experience-level"> Experience Level </label>
+                <select name="experience-level" id="experience-level"></select>
+              </div>
+            </div>
+
+            <div class="row-container">
+              <div class="row">
+                <label for="about-us"> Tell us about you </label>
+                <input type="text" name="about-us" id="about-us" />
+              </div>
+            </div>
+
+            <div class="btn"><button>Create Account</button></div>
+          </form>
+        </div>
+      </div>
+
+      <div class="split-right">
+        <div class="kodeCamp-link"><a href="">KodeCamp</a></div>
+
+        <div class="chorot">
+          <a href="">JOIN OUR NEXT COHORT</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
